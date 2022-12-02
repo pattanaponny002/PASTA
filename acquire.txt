@@ -1,0 +1,84 @@
+npx expo install expo-notifications
+
+npx expo install expo-location
+
+
+https://app.nativenotify.com/in-app
+registerNNPushToken(4697, "k3Gt5AhhKjgyI4VuayuNbj");
+camera
+npx expo install expo-camera
+
+npm install react-native-google-places-autocomplete --save
+
+AIzaSyAYZBr0qTVEI7ZRU6ZFuTiDLQPzlXIJeXg key
+https://console.cloud.google.com/google/maps-apis/credentials?project=still-algebra-367815
+
+npx expo install lottie-react-native
+ENABLE
+
+https://console.cloud.google.com/apis/dashboard?project=still-algebra-367815
+
+npx expo install expo-camera
+
+
+npx expo install expo-sharing
+
+npx expo install expo-image-manipulator
+[library]
+npx expo install expo-media-library
+
+"plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+
+npx expo install expo-image-picker
+
+NEST***
+ "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+
+[FIREBASE]
+npx expo install firebase
+FIREBASE [FACEBOOK]
+
+npm i react-native-fbsdk-next
+"expo": {
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "48127127xxxxxxxx",
+          "clientToken": "c5078631e4065b60d7544a95xxxxxxxx",
+          "displayName": "RN SDK Demo",
+          "scheme": "fb48127127xxxxxxxx",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+
+[RECAPCHA]
+  npx expo install expo-firebase-recaptcha
